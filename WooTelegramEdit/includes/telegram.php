@@ -255,7 +255,7 @@ class Telegram extends WC_Integration
             $product = $item->get_product();
             $format_product1 = str_replace("<span>", '', $product->get_name());
             $format_product2 = str_replace("</span>", '', $format_product1);
-            $format_product3 = str_replace(" - ", $enter . 'Цвет: ' . $enter , $format_product2);
+            $format_product3 = str_replace(" - ", $enter . 'Цвет: ', $format_product2);
             $qty     = $item->get_quantity() ? $item->get_quantity() : 1;
             $price   = wc_format_localized_price($item->get_total() / $qty);
             $text    .= '                    Товар ' . $item_count . ': ' . $enter . $format_product3 . $enter . 'Кол-во: ' . $qty . $enter . 'Цена: ' . $price . $enter;
