@@ -22,7 +22,4 @@
 
 
 
-
-
-Создано по серии статей https://pword.xyz/2019/12/17/woocommerce-telegram-plugin/
 Доработа и оптимизировано Nar-Marratuk.
